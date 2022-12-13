@@ -1,0 +1,17 @@
+{
+  "name": "snow-ui",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Edward <edward_job@163.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@snow-ui/components": "workspace:^1.0.0",
+    "@snow-ui/theme-chalk": "workspace:^1.0.0",
+    "@snow-ui/utils": "workspace:^1.0.0"
+  }
+}
