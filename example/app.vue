@@ -1,4 +1,7 @@
 /* app.vue */
 <template>
-  <h1>我是开发调试页面</h1>
+  <SnowButton size="small" type="aaa" />
 </template>
+<script setup lang="ts">
+import SnowButton from "@snow-ui/components/button";
+</script>
