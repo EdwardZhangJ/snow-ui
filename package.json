@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "pnpm -C example dev"
   },
   "keywords": [],
   "author": "Edward <edward_job@163.com>",
@@ -13,5 +14,9 @@
     "@snow-ui/components": "workspace:^1.0.0",
     "@snow-ui/theme-chalk": "workspace:^1.0.0",
     "@snow-ui/utils": "workspace:^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4",
+    "vue": "^3.2.36"
   }
 }
